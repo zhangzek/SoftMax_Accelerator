@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 14 10:34:58 2020
+# Process ID: 20952
+# Current directory: D:/Project/verilog_pro/softmax/prj1/softmax
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12112 D:\Project\verilog_pro\softmax\prj1\softmax\softmax.xpr
+# Log file: D:/Project/verilog_pro/softmax/prj1/softmax/vivado.log
+# Journal file: D:/Project/verilog_pro/softmax/prj1/softmax\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/verilog_pro/softmax/prj1/softmax/softmax.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run blk_mem_gen_0_synth_1
+reset_run floating_point_0_synth_1
+reset_run floating_point_1_synth_1
+reset_run divide_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property flow {Vivado Synthesis 2018} [get_runs synth_1]
+create_run synth_2 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+current_run [get_runs synth_2]
+set_property board_part xilinx.com:vc707:part0:1.4 [current_project]
+set_property flow {Vivado Implementation 2015} [get_runs impl_2]
+reset_run blk_mem_gen_0_synth_1
+reset_run floating_point_0_synth_1
+reset_run floating_point_1_synth_1
+reset_run divide_synth_1
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+open_run impl_2
+reset_run impl_2
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+refresh_design
+reset_run impl_2
+set_property report_strategy {UltraFast Design Methodology Reports} [get_runs impl_2]
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+refresh_design

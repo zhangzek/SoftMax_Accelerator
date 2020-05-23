@@ -1,0 +1,31 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Jan 14 11:21:12 2020
+| Host         : DESKTOP-AB83B2T running 64-bit major release  (build 9200)
+| Command      : report_high_fanout_nets -file init_report_high_fanout_nets_0.rpt
+| Design       : softmax
+| Device       : xc7vx485t
+------------------------------------------------------------------------------------
+
+High Fan-out Nets Information
+
+1. Summary
+----------
+
++----------------------------------------------------+--------+-------------+
+| Net Name                                           | Fanout | Driver Type |
++----------------------------------------------------+--------+-------------+
+| gety/gety0/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety1/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety2/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety3/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety4/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety5/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety6/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety7/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety8/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
+| gety/gety9/U0/i_synth/i_nd_to_rdy/ce_internal_core |    624 | LUT2        |
++----------------------------------------------------+--------+-------------+
+
+

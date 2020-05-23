@@ -1,0 +1,607 @@
+
+*** Running vivado
+    with args -log softmax.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source softmax.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source softmax.tcl -notrace
+Command: synth_design -top softmax -part xc7k325tffg900-2
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0.xci
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1.xci
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide.xci
+
+INFO: [IP_Flow 19-2162] IP 'blk_mem_gen_0' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'blk_mem_gen_0' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
+* IP definition 'Block Memory Generator (8.3)' for IP 'blk_mem_gen_0' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'floating_point_0' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'floating_point_0' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'floating_point_1' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'floating_point_1' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'divide' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'divide' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2432 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 470.504 ; gain = 100.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'softmax' [D:/Project/verilog_pro/softmax/rtl/softmax.v:23]
+INFO: [Synth 8-6157] synthesizing module 'getaddr' [D:/Project/verilog_pro/softmax/rtl/getaddr.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'getaddr' (1#1) [D:/Project/verilog_pro/softmax/rtl/getaddr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'addrtodata' [D:/Project/verilog_pro/softmax/rtl/addrtodata.v:22]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (2#1) [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'addrtodata' (3#1) [D:/Project/verilog_pro/softmax/rtl/addrtodata.v:22]
+INFO: [Synth 8-6157] synthesizing module 'gety' [D:/Project/verilog_pro/softmax/rtl/gety.v:23]
+INFO: [Synth 8-6157] synthesizing module 'floating_point_0' [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/floating_point_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'floating_point_0' (4#1) [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/floating_point_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gety' (5#1) [D:/Project/verilog_pro/softmax/rtl/gety.v:23]
+INFO: [Synth 8-6157] synthesizing module 'getf' [D:/Project/verilog_pro/softmax/rtl/getf.v:23]
+INFO: [Synth 8-6157] synthesizing module 'floating_point_1' [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/floating_point_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'floating_point_1' (6#1) [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/floating_point_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'divide' [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/divide_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'divide' (7#1) [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/.Xil/Vivado-16304-DESKTOP-AB83B2T/realtime/divide_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'getf' (8#1) [D:/Project/verilog_pro/softmax/rtl/getf.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'softmax' (9#1) [D:/Project/verilog_pro/softmax/rtl/softmax.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 535.707 ; gain = 165.340
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 535.707 ; gain = 165.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 535.707 ; gain = 165.340
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_0'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_0'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_1'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_1'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_2'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_2'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_3'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_3'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_4'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_4'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_5'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_5'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_6'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_6'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_7'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_7'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_8'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_8'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_9'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getk_9'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_0'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_0'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_1'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_1'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_2'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_2'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_3'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_3'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_4'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_4'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_5'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_5'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_6'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_6'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_7'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_7'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_8'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_8'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_9'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'addrtodata/getb_9'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety0'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety0'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety1'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety1'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety2'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety2'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety3'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety3'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety4'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety4'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety5'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety5'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety6'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety6'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety7'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety7'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety8'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety8'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety9'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0/floating_point_0_in_context.xdc] for cell 'gety/gety9'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf0'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf0'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf1'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf1'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf2'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf2'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf3'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf3'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf4'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf4'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf5'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf5'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf6'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf6'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf7'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf7'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1/floating_point_1_in_context.xdc] for cell 'getf/getf'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult0'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult0'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult1'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult1'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult2'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult2'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult3'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult3'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult4'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult4'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult5'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult5'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult6'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult6'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult7'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult7'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult8'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult8'
+Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult9'
+Finished Parsing XDC File [d:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide/divide_in_context.xdc] for cell 'getf/getresult9'
+Parsing XDC File [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/constrs_1/new/mm.xdc]
+Finished Parsing XDC File [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/constrs_1/new/mm.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 921.105 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 921.105 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 921.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for addrtodata/getb_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getb_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for addrtodata/getk_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gety/gety9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getf7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for getf/getresult9. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "addrb0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb4" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb5" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb6" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb7" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb8" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addrb9" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra4" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra5" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra6" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra7" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra8" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addra9" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 20    
++---Muxes : 
+	   9 Input      5 Bit        Muxes := 10    
+	   2 Input      5 Bit        Muxes := 80    
+	   9 Input      1 Bit        Muxes := 10    
+	  11 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module getaddr 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 20    
++---Muxes : 
+	   9 Input      5 Bit        Muxes := 10    
+	   2 Input      5 Bit        Muxes := 80    
+	   9 Input      1 Bit        Muxes := 10    
+	  11 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra9_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra8_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra7_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra6_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra5_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra4_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra3_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra2_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (getaddr/\addra0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb9_reg[5]' (FDE) to 'getaddr/addra9_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb8_reg[5]' (FDE) to 'getaddr/addra8_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb7_reg[5]' (FDE) to 'getaddr/addra7_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb6_reg[5]' (FDE) to 'getaddr/addra6_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb5_reg[5]' (FDE) to 'getaddr/addra5_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb4_reg[5]' (FDE) to 'getaddr/addra4_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb3_reg[5]' (FDE) to 'getaddr/addra3_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb2_reg[5]' (FDE) to 'getaddr/addra2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb1_reg[5]' (FDE) to 'getaddr/addra1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb0_reg[5]' (FDE) to 'getaddr/addra0_reg[5]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb9_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb9_reg[1]' (FDE) to 'getaddr/addra9_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb9_reg[2]' (FDE) to 'getaddr/addra9_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb9_reg[3]' (FDE) to 'getaddr/addra9_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb9_reg[4]' (FDE) to 'getaddr/addra9_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb8_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb8_reg[1]' (FDE) to 'getaddr/addra8_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb8_reg[2]' (FDE) to 'getaddr/addra8_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb8_reg[3]' (FDE) to 'getaddr/addra8_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb8_reg[4]' (FDE) to 'getaddr/addra8_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb7_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb7_reg[1]' (FDE) to 'getaddr/addra7_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb7_reg[2]' (FDE) to 'getaddr/addra7_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb7_reg[3]' (FDE) to 'getaddr/addra7_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb7_reg[4]' (FDE) to 'getaddr/addra7_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb6_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb6_reg[1]' (FDE) to 'getaddr/addra6_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb6_reg[2]' (FDE) to 'getaddr/addra6_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb6_reg[3]' (FDE) to 'getaddr/addra6_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb6_reg[4]' (FDE) to 'getaddr/addra6_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb5_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb5_reg[1]' (FDE) to 'getaddr/addra5_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb5_reg[2]' (FDE) to 'getaddr/addra5_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb5_reg[3]' (FDE) to 'getaddr/addra5_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb5_reg[4]' (FDE) to 'getaddr/addra5_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb4_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb4_reg[1]' (FDE) to 'getaddr/addra4_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb4_reg[2]' (FDE) to 'getaddr/addra4_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb4_reg[3]' (FDE) to 'getaddr/addra4_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb4_reg[4]' (FDE) to 'getaddr/addra4_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb3_reg[1]' (FDE) to 'getaddr/addra3_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb3_reg[2]' (FDE) to 'getaddr/addra3_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb3_reg[3]' (FDE) to 'getaddr/addra3_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb3_reg[4]' (FDE) to 'getaddr/addra3_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb2_reg[1]' (FDE) to 'getaddr/addra2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb2_reg[2]' (FDE) to 'getaddr/addra2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb2_reg[3]' (FDE) to 'getaddr/addra2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb2_reg[4]' (FDE) to 'getaddr/addra2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb1_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb1_reg[1]' (FDE) to 'getaddr/addra1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb1_reg[2]' (FDE) to 'getaddr/addra1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb1_reg[3]' (FDE) to 'getaddr/addra1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb1_reg[4]' (FDE) to 'getaddr/addra1_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (getaddr/\addrb0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb0_reg[1]' (FDE) to 'getaddr/addra0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb0_reg[2]' (FDE) to 'getaddr/addra0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb0_reg[3]' (FDE) to 'getaddr/addra0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'getaddr/addrb0_reg[4]' (FDE) to 'getaddr/addra0_reg[4]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 921.105 ; gain = 550.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |blk_mem_gen_0    |        20|
+|2     |floating_point_1 |         9|
+|3     |divide           |        10|
+|4     |floating_point_0 |        10|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |blk_mem_gen_0        |     1|
+|2     |blk_mem_gen_0__20    |     1|
+|3     |blk_mem_gen_0__21    |     1|
+|4     |blk_mem_gen_0__22    |     1|
+|5     |blk_mem_gen_0__23    |     1|
+|6     |blk_mem_gen_0__24    |     1|
+|7     |blk_mem_gen_0__25    |     1|
+|8     |blk_mem_gen_0__26    |     1|
+|9     |blk_mem_gen_0__27    |     1|
+|10    |blk_mem_gen_0__28    |     1|
+|11    |blk_mem_gen_0__29    |     1|
+|12    |blk_mem_gen_0__30    |     1|
+|13    |blk_mem_gen_0__31    |     1|
+|14    |blk_mem_gen_0__32    |     1|
+|15    |blk_mem_gen_0__33    |     1|
+|16    |blk_mem_gen_0__34    |     1|
+|17    |blk_mem_gen_0__35    |     1|
+|18    |blk_mem_gen_0__36    |     1|
+|19    |blk_mem_gen_0__37    |     1|
+|20    |blk_mem_gen_0__38    |     1|
+|21    |divide               |     1|
+|22    |divide__10           |     1|
+|23    |divide__11           |     1|
+|24    |divide__12           |     1|
+|25    |divide__13           |     1|
+|26    |divide__14           |     1|
+|27    |divide__15           |     1|
+|28    |divide__16           |     1|
+|29    |divide__17           |     1|
+|30    |divide__18           |     1|
+|31    |floating_point_0     |     1|
+|32    |floating_point_0__10 |     1|
+|33    |floating_point_0__11 |     1|
+|34    |floating_point_0__12 |     1|
+|35    |floating_point_0__13 |     1|
+|36    |floating_point_0__14 |     1|
+|37    |floating_point_0__15 |     1|
+|38    |floating_point_0__16 |     1|
+|39    |floating_point_0__17 |     1|
+|40    |floating_point_0__18 |     1|
+|41    |floating_point_1     |     1|
+|42    |floating_point_1__10 |     1|
+|43    |floating_point_1__11 |     1|
+|44    |floating_point_1__12 |     1|
+|45    |floating_point_1__13 |     1|
+|46    |floating_point_1__14 |     1|
+|47    |floating_point_1__15 |     1|
+|48    |floating_point_1__16 |     1|
+|49    |floating_point_1__9  |     1|
+|50    |BUFG                 |     1|
+|51    |LUT2                 |    50|
+|52    |LUT3                 |    50|
+|53    |LUT4                 |    70|
+|54    |LUT5                 |    70|
+|55    |LUT6                 |   220|
+|56    |FDRE                 |    50|
+|57    |IBUF                 |   161|
+|58    |OBUF                 |   160|
++------+---------------------+------+
+
+Report Instance Areas: 
++------+-------------+-----------+------+
+|      |Instance     |Module     |Cells |
++------+-------------+-----------+------+
+|1     |top          |           |  1713|
+|2     |  addrtodata |addrtodata |   320|
+|3     |  getaddr    |getaddr    |   510|
+|4     |  getf       |getf       |   361|
+|5     |  gety       |gety       |   200|
++------+-------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 932.027 ; gain = 176.262
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 932.027 ; gain = 561.660
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 937.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+121 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 937.289 ; gain = 578.387
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 937.289 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/softmax.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file softmax_utilization_synth.rpt -pb softmax_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 14 10:51:15 2020...

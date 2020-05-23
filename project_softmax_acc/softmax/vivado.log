@@ -1,0 +1,237 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 14 10:34:58 2020
+# Process ID: 20952
+# Current directory: D:/Project/verilog_pro/softmax/prj1/softmax
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12112 D:\Project\verilog_pro\softmax\prj1\softmax\softmax.xpr
+# Log file: D:/Project/verilog_pro/softmax/prj1/softmax/vivado.log
+# Journal file: D:/Project/verilog_pro/softmax/prj1/softmax\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/verilog_pro/softmax/prj1/softmax/softmax.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lijing/Desktop/softmax/prj1/softmax' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_0' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'blk_mem_gen_0' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
+* IP definition 'Block Memory Generator (8.3)' for IP 'blk_mem_gen_0' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'floating_point_0' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'floating_point_0' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'floating_point_1' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'floating_point_1' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'divide' is locked:
+* IP definition 'Floating-point (7.1)' for IP 'divide' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [Project 1-230] Project 'softmax.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 818.848 ; gain = 224.254
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run blk_mem_gen_0_synth_1
+reset_run floating_point_0_synth_1
+reset_run floating_point_1_synth_1
+reset_run divide_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [Project 1-577] IP run blk_mem_gen_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run floating_point_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run floating_point_1_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run divide_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide.xci
+
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' in run blk_mem_gen_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0.xci' in run floating_point_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1.xci' in run floating_point_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide.xci' in run divide_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Tue Jan 14 10:48:52 2020] Launched blk_mem_gen_0_synth_1, floating_point_0_synth_1, floating_point_1_synth_1, divide_synth_1...
+Run output will be captured here:
+blk_mem_gen_0_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/blk_mem_gen_0_synth_1/runme.log
+floating_point_0_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/floating_point_0_synth_1/runme.log
+floating_point_1_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/floating_point_1_synth_1/runme.log
+divide_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/divide_synth_1/runme.log
+[Tue Jan 14 10:48:53 2020] Launched synth_1...
+Run output will be captured here: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/softmax.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/addrtodata.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sim_1/new/softmax_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getaddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getf.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/gety.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/softmax.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/addrtodata.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sim_1/new/softmax_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getaddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getf.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/gety.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/softmax.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/addrtodata.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sim_1/new/softmax_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getaddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getf.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/gety.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/softmax.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/addrtodata.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sim_1/new/softmax_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getaddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/getf.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/Project/verilog_pro/softmax/rtl/gety.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+set_property flow {Vivado Synthesis 2018} [get_runs synth_1]
+create_run synth_2 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7k325tffg900-2
+current_run [get_runs synth_2]
+set_property board_part xilinx.com:vc707:part0:1.4 [current_project]
+WARNING: [Project 1-153] The current project device 'xc7k325tffg900-2' does not match with the device on the 'XILINX.COM:VC707:PART0:1.4' board part. A device change to match the device on 'XILINX.COM:VC707:PART0:1.4' board part is being done. Please upgrade the IP in the project via the upgrade_ip command or by selecting Reports => Reports IP Status.
+INFO: [Project 1-152] Project part set to virtex7 (xc7vx485tffg1761-2)
+set_property flow {Vivado Implementation 2015} [get_runs impl_2]
+reset_run blk_mem_gen_0_synth_1
+reset_run floating_point_0_synth_1
+reset_run floating_point_1_synth_1
+reset_run divide_synth_1
+launch_runs synth_2 -jobs 4
+WARNING: [Project 1-577] IP run blk_mem_gen_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run floating_point_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run floating_point_1_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run divide_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide.xci
+
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' in run blk_mem_gen_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_0/floating_point_0.xci' in run floating_point_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/floating_point_1/floating_point_1.xci' in run floating_point_1_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/Project/verilog_pro/softmax/prj1/softmax/softmax.srcs/sources_1/ip/divide/divide.xci' in run divide_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Tue Jan 14 10:52:12 2020] Launched blk_mem_gen_0_synth_1, floating_point_0_synth_1, floating_point_1_synth_1, divide_synth_1...
+Run output will be captured here:
+blk_mem_gen_0_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/blk_mem_gen_0_synth_1/runme.log
+floating_point_0_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/floating_point_0_synth_1/runme.log
+floating_point_1_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/floating_point_1_synth_1/runme.log
+divide_synth_1: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/divide_synth_1/runme.log
+[Tue Jan 14 10:52:13 2020] Launched synth_2...
+Run output will be captured here: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/synth_2/runme.log
+launch_runs impl_2 -jobs 4
+[Tue Jan 14 10:55:04 2020] Launched impl_2...
+Run output will be captured here: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/impl_2/runme.log
+open_run impl_2
+INFO: [Netlist 29-17] Analyzing 1043 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1694.898 ; gain = 30.004
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1694.898 ; gain = 30.004
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1694.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 36 instances
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 1901.621 ; gain = 718.496
+reset_run impl_2
+launch_runs impl_2 -jobs 4
+[Tue Jan 14 11:01:24 2020] Launched impl_2...
+Run output will be captured here: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/impl_2/runme.log
+WARNING: [Vivado 12-4144] IP run blk_mem_gen_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4144] IP run floating_point_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4144] IP run floating_point_1_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4144] IP run divide_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+refresh_design
+INFO: [Netlist 29-17] Analyzing 1043 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3167.715 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3167.715 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 3167.715 ; gain = 0.000
+reset_run impl_2
+set_property report_strategy {UltraFast Design Methodology Reports} [get_runs impl_2]
+launch_runs impl_2 -jobs 4
+[Tue Jan 14 11:20:20 2020] Launched impl_2...
+Run output will be captured here: D:/Project/verilog_pro/softmax/prj1/softmax/softmax.runs/impl_2/runme.log
+WARNING: [Vivado 12-4144] IP run blk_mem_gen_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4144] IP run floating_point_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4144] IP run floating_point_1_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4144] IP run divide_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+refresh_design
+INFO: [Netlist 29-17] Analyzing 1043 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3258.148 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3258.148 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 3258.148 ; gain = 0.000
+open_report: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3258.148 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 14 14:45:58 2020...

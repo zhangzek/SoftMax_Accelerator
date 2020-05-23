@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../../rtl/getf.v"
+verilog xil_defaultlib  "../../../../../rtl/addrtodata.v"
+verilog xil_defaultlib  "../../../../../rtl/getaddr.v"
+verilog xil_defaultlib  "../../../../../rtl/gety.v"
+verilog xil_defaultlib  "../../../../../rtl/softmax.v"
+verilog xil_defaultlib  "../../../softmax.srcs/sim_1/new/softmax_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

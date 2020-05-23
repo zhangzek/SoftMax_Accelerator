@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\lijing\Desktop\softmax\prj\softmax\ipcore_dir\blk_mem_gen_0.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">blk_mem_gen_0</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 38: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 39: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 40: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 31: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 51: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 52: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 53: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 44: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 64: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 65: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 66: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 57: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 77: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 78: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 79: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 70: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 90: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 91: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 92: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 83: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 103: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 104: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 105: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 96: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 116: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 117: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 118: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 109: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 129: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 130: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 131: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 122: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 142: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 143: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 144: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 135: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 155: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tvalid</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 156: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tready</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 157: Module &lt;<arg fmt="%s" index="1">floating_point_0</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">s_axis_c_tdata</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 148: Port <arg fmt="%s" index="1">s_axis_operation_tvalid</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 33: Assignment to <arg fmt="%s" index="1">m01</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 34: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 36: Assignment to <arg fmt="%s" index="1">m02</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 38: Cannot find port <arg fmt="%s" index="1">s_axis_c_tvalid</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 39: Cannot find port <arg fmt="%s" index="1">s_axis_c_tready</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 40: Cannot find port <arg fmt="%s" index="1">s_axis_c_tdata</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 41: Assignment to <arg fmt="%s" index="1">n0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 43: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 23: Empty module &lt;<arg fmt="%s" index="1">gety</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 35: Assignment to <arg fmt="%s" index="1">g01</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 36: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 38: Assignment to <arg fmt="%s" index="1">g02</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 39: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 40: Assignment to <arg fmt="%s" index="1">gg0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 42: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 45: Assignment to <arg fmt="%s" index="1">g11</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 46: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 48: Assignment to <arg fmt="%s" index="1">g12</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 49: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 50: Assignment to <arg fmt="%s" index="1">gg1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 52: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 55: Assignment to <arg fmt="%s" index="1">g21</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 56: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 58: Assignment to <arg fmt="%s" index="1">g22</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 59: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 60: Assignment to <arg fmt="%s" index="1">gg2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 62: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 65: Assignment to <arg fmt="%s" index="1">g31</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 66: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 68: Assignment to <arg fmt="%s" index="1">g32</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 69: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 70: Assignment to <arg fmt="%s" index="1">gg3</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 72: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 75: Assignment to <arg fmt="%s" index="1">g41</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 76: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 78: Assignment to <arg fmt="%s" index="1">g42</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 79: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 80: Assignment to <arg fmt="%s" index="1">gg4</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 82: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 85: Assignment to <arg fmt="%s" index="1">g51</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 86: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 88: Assignment to <arg fmt="%s" index="1">g52</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 89: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 90: Assignment to <arg fmt="%s" index="1">gg5</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 92: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 95: Assignment to <arg fmt="%s" index="1">g61</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 96: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 98: Assignment to <arg fmt="%s" index="1">g62</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 99: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 100: Assignment to <arg fmt="%s" index="1">gg6</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 102: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 105: Assignment to <arg fmt="%s" index="1">g71</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 106: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 108: Assignment to <arg fmt="%s" index="1">g72</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 109: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 110: Assignment to <arg fmt="%s" index="1">gg7</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 112: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 115: Assignment to <arg fmt="%s" index="1">g81</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 116: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 118: Assignment to <arg fmt="%s" index="1">g82</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 119: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 120: Assignment to <arg fmt="%s" index="1">gg8</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 122: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 125: Assignment to <arg fmt="%s" index="1">d01</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 126: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 128: Assignment to <arg fmt="%s" index="1">d02</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 129: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 130: Assignment to <arg fmt="%s" index="1">dd0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 132: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 135: Assignment to <arg fmt="%s" index="1">d11</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 136: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 138: Assignment to <arg fmt="%s" index="1">d12</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 139: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 140: Assignment to <arg fmt="%s" index="1">dd1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 142: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 145: Assignment to <arg fmt="%s" index="1">d21</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 146: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 148: Assignment to <arg fmt="%s" index="1">d22</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 149: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 150: Assignment to <arg fmt="%s" index="1">dd2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 152: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 155: Assignment to <arg fmt="%s" index="1">d31</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 156: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 158: Assignment to <arg fmt="%s" index="1">d32</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 159: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 160: Assignment to <arg fmt="%s" index="1">dd3</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 162: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 165: Assignment to <arg fmt="%s" index="1">d41</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 166: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 168: Assignment to <arg fmt="%s" index="1">d42</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 169: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 170: Assignment to <arg fmt="%s" index="1">dd4</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 172: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 175: Assignment to <arg fmt="%s" index="1">d51</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 176: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 178: Assignment to <arg fmt="%s" index="1">d52</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 179: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 180: Assignment to <arg fmt="%s" index="1">dd5</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 182: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 185: Assignment to <arg fmt="%s" index="1">d61</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 186: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 188: Assignment to <arg fmt="%s" index="1">d62</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 189: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 190: Assignment to <arg fmt="%s" index="1">dd6</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 192: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 195: Assignment to <arg fmt="%s" index="1">d71</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 196: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 198: Assignment to <arg fmt="%s" index="1">d72</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 199: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 200: Assignment to <arg fmt="%s" index="1">dd7</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 202: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 205: Assignment to <arg fmt="%s" index="1">d81</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 206: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 208: Assignment to <arg fmt="%s" index="1">d82</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 209: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 210: Assignment to <arg fmt="%s" index="1">dd8</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 212: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 215: Assignment to <arg fmt="%s" index="1">d91</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 216: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_a_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 218: Assignment to <arg fmt="%s" index="1">d92</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 219: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_b_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 220: Assignment to <arg fmt="%s" index="1">dd9</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 222: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_result_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+</messages>
+

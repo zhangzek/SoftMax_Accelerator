@@ -1,0 +1,28 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Jan 14 11:21:46 2020
+| Host         : DESKTOP-AB83B2T running 64-bit major release  (build 9200)
+| Command      : report_design_analysis -logic_level_distribution -file opt_report_design_analysis_0.rpt
+| Design       : softmax
+| Device       : xc7vx485t
+---------------------------------------------------------------------------------------------------------
+
+Report Design Analysis
+
+Table of Contents
+-----------------
+1. Logic Level Distribution
+
+1. Logic Level Distribution
+---------------------------
+
++-----------------+-------------+-----+----+-----+-----+----+
+| End Point Clock | Requirement |  2  |  3 |  4  |  5  |  6 |
++-----------------+-------------+-----+----+-----+-----+----+
+| (none)          | 0.000ns     | 160 | 57 | 343 | 380 | 60 |
++-----------------+-------------+-----+----+-----+-----+----+
+* Columns represent the logic levels per end point clock
+** Distribution is for top worst 1000 paths
+
+

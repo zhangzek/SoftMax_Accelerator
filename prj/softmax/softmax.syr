@@ -1,0 +1,324 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: softmax.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "softmax.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "softmax"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : softmax
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\prj\softmax\ipcore_dir\floating_point_1.v" into library work
+Parsing module <floating_point_1>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\prj\softmax\ipcore_dir\floating_point_0.v" into library work
+Parsing module <floating_point_0>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\prj\softmax\ipcore_dir\divide.v" into library work
+Parsing module <divide>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\prj\softmax\ipcore_dir\blk_mem_gen_0.v" into library work
+Parsing module <blk_mem_gen_0>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\rtl\gety.v" into library work
+Parsing module <gety>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\rtl\getf.v" into library work
+Parsing module <getf>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\rtl\getaddr.v" into library work
+Parsing module <getaddr>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\rtl\addrtodata.v" into library work
+Parsing module <addrtodata>.
+Analyzing Verilog file "C:\Users\lijing\Desktop\softmax\rtl\softmax.v" into library work
+Parsing module <softmax>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <softmax>.
+
+Elaborating module <getaddr>.
+
+Elaborating module <addrtodata>.
+
+Elaborating module <blk_mem_gen_0>.
+WARNING:HDLCompiler:1499 - "C:\Users\lijing\Desktop\softmax\prj\softmax\ipcore_dir\blk_mem_gen_0.v" Line 39: Empty module <blk_mem_gen_0> remains a black box.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 38: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 39: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 40: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 31: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 51: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 52: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 53: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 44: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 64: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 65: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 66: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 57: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 77: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 78: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 79: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 70: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 90: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 91: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 92: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 83: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 103: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 104: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 105: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 96: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 116: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 117: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 118: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 109: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 129: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 130: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 131: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 122: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 142: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 143: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 144: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 135: Port s_axis_operation_tvalid is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 155: Module <floating_point_0> does not have a port named <s_axis_c_tvalid>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 156: Module <floating_point_0> does not have a port named <s_axis_c_tready>.
+WARNING:HDLCompiler:25 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 157: Module <floating_point_0> does not have a port named <s_axis_c_tdata>.
+WARNING:HDLCompiler:1016 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 148: Port s_axis_operation_tvalid is not connected to this instance
+
+Elaborating module <gety>.
+
+Elaborating module <floating_point_0>.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 33: Assignment to m01 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 34: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 36: Assignment to m02 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 37: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+ERROR:HDLCompiler:267 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 38: Cannot find port s_axis_c_tvalid on this module
+ERROR:HDLCompiler:267 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 39: Cannot find port s_axis_c_tready on this module
+ERROR:HDLCompiler:267 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 40: Cannot find port s_axis_c_tdata on this module
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 41: Assignment to n0 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 43: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+Module gety remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Users\lijing\Desktop\softmax\rtl\gety.v" Line 23: Empty module <gety> remains a black box.
+
+Elaborating module <getf>.
+
+Elaborating module <floating_point_1>.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 35: Assignment to g01 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 36: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 38: Assignment to g02 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 39: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 40: Assignment to gg0 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 42: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 45: Assignment to g11 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 46: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 48: Assignment to g12 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 49: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 50: Assignment to gg1 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 52: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 55: Assignment to g21 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 56: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 58: Assignment to g22 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 59: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 60: Assignment to gg2 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 62: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 65: Assignment to g31 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 66: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 68: Assignment to g32 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 69: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 70: Assignment to gg3 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 72: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 75: Assignment to g41 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 76: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 78: Assignment to g42 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 79: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 80: Assignment to gg4 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 82: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 85: Assignment to g51 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 86: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 88: Assignment to g52 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 89: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 90: Assignment to gg5 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 92: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 95: Assignment to g61 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 96: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 98: Assignment to g62 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 99: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 100: Assignment to gg6 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 102: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 105: Assignment to g71 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 106: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 108: Assignment to g72 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 109: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 110: Assignment to gg7 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 112: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 115: Assignment to g81 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 116: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 118: Assignment to g82 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 119: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 120: Assignment to gg8 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 122: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+
+Elaborating module <divide>.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 125: Assignment to d01 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 126: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 128: Assignment to d02 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 129: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 130: Assignment to dd0 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 132: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 135: Assignment to d11 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 136: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 138: Assignment to d12 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 139: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 140: Assignment to dd1 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 142: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 145: Assignment to d21 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 146: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 148: Assignment to d22 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 149: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 150: Assignment to dd2 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 152: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 155: Assignment to d31 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 156: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 158: Assignment to d32 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 159: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 160: Assignment to dd3 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 162: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 165: Assignment to d41 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 166: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 168: Assignment to d42 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 169: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 170: Assignment to dd4 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 172: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 175: Assignment to d51 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 176: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 178: Assignment to d52 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 179: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 180: Assignment to dd5 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 182: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 185: Assignment to d61 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 186: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 188: Assignment to d62 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 189: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 190: Assignment to dd6 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 192: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 195: Assignment to d71 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 196: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 198: Assignment to d72 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 199: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 200: Assignment to dd7 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 202: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 205: Assignment to d81 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 206: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 208: Assignment to d82 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 209: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 210: Assignment to dd8 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 212: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 215: Assignment to d91 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 216: Size mismatch in connection of port <s_axis_a_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 218: Assignment to d92 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 219: Size mismatch in connection of port <s_axis_b_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 220: Assignment to dd9 ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\lijing\Desktop\softmax\rtl\getf.v" Line 222: Size mismatch in connection of port <m_axis_result_tdata>. Formal port size is 32-bit while actual signal size is 16-bit.
+--> 
+
+Total memory usage is 210732 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :  162 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/rtl/getf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/rtl/addrtodata.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addrtodata
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/rtl/getaddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module getaddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/rtl/gety.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gety
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/rtl/softmax.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module softmax
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/prj1/softmax/softmax.srcs/sim_1/new/softmax_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module softmax_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lijing/Desktop/softmax/prj1/softmax/softmax.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

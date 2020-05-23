@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue May 15 16:04:19 2018
+# Process ID: 7420
+# Current directory: C:/Users/lijing/Desktop/softmax/prj1/softmax
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19100 C:\Users\lijing\Desktop\softmax\prj1\softmax\softmax.xpr
+# Log file: C:/Users/lijing/Desktop/softmax/prj1/softmax/vivado.log
+# Journal file: C:/Users/lijing/Desktop/softmax/prj1/softmax\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lijing/Desktop/softmax/prj1/softmax/softmax.xpr
+launch_simulation
+source softmax_tb.tcl
+restart
+run all
+add_wave {{/softmax_tb/softmax_inst}} 
+restart
+run all
+restart
+run all
+close_sim
+launch_simulation
+source softmax_tb.tcl
+restart
+run all
+close_sim
+launch_simulation
+source softmax_tb.tcl
+restart
+run all
+close_sim
+launch_simulation
+source softmax_tb.tcl
+restart
+run all
+close_sim
+launch_simulation
+source softmax_tb.tcl
+restart
+run all
+close_sim

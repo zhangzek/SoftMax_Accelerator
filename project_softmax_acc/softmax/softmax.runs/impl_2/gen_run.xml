@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1578972020">
+  <File Type="BITSTR-BMM" Name="softmax_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="opt_report_methodology_0.rpt"/>
+  <File Type="INIT-TIMING" Name="init_report_timing_summary_0.rpt"/>
+  <File Type="ROUTE-PWR" Name="route_report_power_0.rpt"/>
+  <File Type="PA-TCL" Name="softmax.tcl"/>
+  <File Type="OPT-TIMING" Name="opt_report_timing_summary_0.rpt"/>
+  <File Type="OPT-DCP" Name="softmax_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="route_report_power_summary_0.pb"/>
+  <File Type="REPORTS-TCL" Name="softmax_reports.tcl"/>
+  <File Type="OPT-DRC" Name="opt_report_drc_0.rpt"/>
+  <File Type="OPT-HWDEF" Name="softmax.hwdef"/>
+  <File Type="PWROPT-DCP" Name="softmax_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="softmax_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="softmax_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="softmax_placed.dcp"/>
+  <File Type="PLACE-IO" Name="place_report_io_0.rpt"/>
+  <File Type="PLACE-CLK" Name="softmax_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="place_report_utilization_0.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="place_report_utilization_0.pb"/>
+  <File Type="PLACE-CTRL" Name="softmax_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="place_report_incremental_reuse_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="softmax_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="softmax.bgn"/>
+  <File Type="PLACE-TIMING" Name="place_report_timing_summary_0.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="softmax_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="softmax.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="softmax_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="softmax_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="softmax_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="softmax.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="softmax_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="softmax_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="softmax_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="softmax_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="route_report_drc_0.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="route_report_drc_0.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="softmax.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="route_report_drc_0.rpx"/>
+  <File Type="BITSTR-MMI" Name="softmax.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="softmax_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="softmax_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="softmax.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="softmax_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="route_report_power_0.rpx"/>
+  <File Type="ROUTE-STATUS" Name="route_report_route_status_0.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="route_report_route_status_0.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="route_report_timing_summary_0.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="softmax_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="route_report_timing_summary_0.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="route_report_incremental_reuse_0.rpt"/>
+  <File Type="ROUTE-CLK" Name="route_report_clock_utilization_0.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="route_report_bus_skew_0.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="route_report_bus_skew_0.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="route_report_bus_skew_0.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="softmax_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="softmax_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="softmax_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="softmax_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="softmax_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="softmax_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="softmax_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="softmax.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="softmax_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="softmax.rbt"/>
+  <File Type="BITSTR-NKY" Name="softmax.nky"/>
+  <File Type="BG-DRC" Name="softmax.drc"/>
+  <File Type="RDI-RDI" Name="softmax.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../rtl/addrtodata.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/getaddr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/getf.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/gety.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/softmax.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/rom/rom.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="softmax"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/mm.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="divide"/>
+  <BlockFileSet Type="BlockSrcs" Name="floating_point_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="floating_point_0"/>
+</GenRun>
